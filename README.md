@@ -1,2 +1,2 @@
 # go-with-tests
-Learning Go with tests.
+Programming Go with tests.
