@@ -1,2 +1,2 @@
 # go-with-tests
-Programming Go with tests.
+Programming with Go using tests.
