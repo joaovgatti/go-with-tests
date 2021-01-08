@@ -2,15 +2,16 @@ package main
 
 import "fmt"
 
-func HelloWorld() string {
-	return "Hello World"
-}
+
+const englishPrefix = "Hello, "
 
 func HelloUser(name string) string {
-	return "Hello " + name
+	if name == ""{
+		name = "World"
+	}
+	return englishPrefix + name
 }
 
 func main(){
-	fmt.Println(HelloWorld())
 	fmt.Println(HelloUser("Joao"))
 }
